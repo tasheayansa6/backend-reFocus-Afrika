@@ -30,8 +30,6 @@ app.get("/", (_req, res) => {
       register: "POST /api/register",
       login: "POST /api/login",
       profile: "GET /api/register/me",
-      adminLogin: "POST /api/admin/login",
-      adminRegistrations: "GET /api/admin/registrations",
     },
   });
 });
